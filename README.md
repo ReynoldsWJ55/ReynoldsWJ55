@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @ReynoldsWJ55
+- 👋 Hi, I’m Will!
 - 👀 I’m interested in web development
 - 🌱 I’m currently learning HTML and CSS
 
