@@ -1,11 +1,11 @@
-- 👋 Hi, I’m Will! I am an Air Force veteran and photographer making the switch to software development.
-- Currently, I’m learning HTML, CSS, and JavaScript
+- 👋 Hi, I’m Will! I am an Air Force veteran and photographer making the switch to software development. Currently, I’m learning HTML, CSS, and JavaScript
 
 ```js
 const about {
 firstName: 'Will',
 lastName: 'Reynolds',
 certifications: ['Azure Admin AZ-104', 'CompTIA Security+'],
+student: true,
 learning: ['JavaScript', 'HTML', 'CSS'],
 }
 ```
