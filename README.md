@@ -20,6 +20,7 @@ As a developer, I've had the opportunity to work on various projects that have h
 **Description:** WJR Visuals is a travel photography portfolio website that showcases my passion for capturing the beauty and diversity of our planet. The website features a curated selection of my photographic work and serves as a platform to share my creative vision.
 
 **My Role:**
+- Designed the UI/UX for the website, ensuring an intuitive and visually appealing user experience.
 - Developed and coded the entire website with a mobile-first approach and responsive design.
 - Implemented a JavaScript function to display low-resolution thumbnails and lightboxes with higher-resolution images.
 - Utilized JavaScript lazy loading to optimize loading times and improve website performance.
@@ -35,6 +36,7 @@ As a developer, I've had the opportunity to work on various projects that have h
 **Description:** V Goal Visa Service is a bilingual business website serving clients in Bangkok, Thailand. Accessible in both Thai and English, the website provides information about visa services and offers an intuitive user experience.
 
 **My Role:**
+- Designed the UI/UX for the website, ensuring an intuitive and visually appealing user experience.
 - Developed and coded a fully responsive, bilingual website with a mobile-first approach.
 - Utilized the Intersection Observer API to manage the navigation bar while scrolling.
 - Implemented JavaScript lazy loading to optimize website loading times.
