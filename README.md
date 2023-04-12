@@ -15,7 +15,7 @@ Feel free to contact me—I'd love to chat, share ideas, and explore opportuniti
 As a developer, I've had the opportunity to work on various projects that have helped me grow my skills and expertise in the field. Below are two of my recent projects showcasing my ability to deliver high-quality web development solutions.
 
 ### WJR Visuals - Travel Photography Portfolio
-**Website:** [www.WJRVisuals.com](https://www.WJRVisuals.com){:target="_blank" rel="noopener noreferrer"}
+**Website:** <a href="https://www.WJRVisuals.com" target="_blank" rel="noopener noreferrer">www.WJRVisuals.com</a>
 
 **Description:** WJR Visuals is a travel photography portfolio website that showcases my passion for capturing the beauty and diversity of our planet. The website features a curated selection of my photographic work and serves as a platform to share my creative vision.
 
