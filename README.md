@@ -1,4 +1,4 @@
-Hi, I'm Will Reynolds!
+##Hi, I'm Will Reynolds!
 
 As an Air Force veteran, I've had the incredible opportunity to serve my country and embark on numerous adventures. Now, I'm on a new journey, transitioning from my passion for photography to the exciting world of software development.
 
@@ -15,7 +15,7 @@ Feel free to contact me—I'd love to chat, share ideas, and explore opportuniti
 As a developer, I've had the opportunity to work on various projects that have helped me grow my skills and expertise in the field. Below are two of my recent projects showcasing my ability to deliver high-quality web development solutions.
 
 ### WJR Visuals - Travel Photography Portfolio
-**Website:** [www.WJRVisuals.com](https://www.WJRVisuals.com)
+**Website:** [www.WJRVisuals.com](https://www.WJRVisuals.com){:target="_blank" rel="noopener noreferrer"}
 
 **Description:** WJR Visuals is a travel photography portfolio website that showcases my passion for capturing the beauty and diversity of our planet. The website features a curated selection of my photographic work and serves as a platform to share my creative vision.
 
@@ -30,7 +30,7 @@ As a developer, I've had the opportunity to work on various projects that have h
 - Gained hands-on experience implementing lazy loading to boost website performance and loading speed.
 
 ### V Goal Visa Service - Bilingual Business Website
-**Website:** [www.VGoalVisaService.com](https://www.VGoalVisaService.com)
+**Website:** [www.VGoalVisaService.com](https://www.VGoalVisaService.com){:target="_blank" rel="noopener noreferrer"}
 
 **Description:** V Goal Visa Service is a bilingual business website serving clients in Bangkok, Thailand. Accessible in both Thai and English, the website provides information about visa services and offers an intuitive user experience.
 
