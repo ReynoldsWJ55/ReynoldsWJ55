@@ -32,7 +32,12 @@ As a developer, I've had the opportunity to work on various projects that have h
 - Enhanced my proficiency in front-end web development, focusing on mobile-first and responsive design.
 - Developed expertise in optimizing image display and using a lightbox for an enhanced user experience.
 - Gained hands-on experience implementing lazy loading to boost website performance and loading speed.
-  ![Image 1](/image1.jpeg "WJR Visuals Website")
+
+<p align="center">
+  <img src="images/image1.jpeg" alt="WJR Visuals Website" title="WJR Visuals Website">
+</p>
+
+---
 
 ### V Goal Visa Service - Bilingual Business Website
 
@@ -54,4 +59,7 @@ As a developer, I've had the opportunity to work on various projects that have h
 - Gained expertise in using lazy loading techniques to enhance website performance.
 
 These projects reflect my commitment to continuous learning and my desire to create meaningful solutions that make a positive impact. I'm excited to continue exploring new technologies and taking on new challenges in software development.
-![Image 2](/image2.jpeg "V Goal Visa Service Website")
+
+<p align="center">
+  <img src="images/image2.jpeg" alt="V Goal Visa Service Website" title="V Goal Visa Service Website">
+</p>
