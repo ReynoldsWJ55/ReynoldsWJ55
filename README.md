@@ -1,18 +1,40 @@
 ## Hi, I'm Will Reynolds!
 
-As an Air Force veteran, I've had the incredible opportunity to serve my country and embark on numerous adventures. Now, I'm on a new journey, transitioning from my passion for photography to the exciting world of software development.
+I am a freelance Developer, Designer, and Marketer passionate about creating innovative web solutions with clean code and thoughtful design. My current focus is mastering HTML, CSS, and JavaScript—the foundation of front-end development.
 
-My current focus is on HTML, CSS, and JavaScript—three pillars of front-end development that I'm eager to master.
+With experience in managing cloud resources and deploying web applications, I specialize in ensuring smooth operations, security, and performance optimization. I enjoy solving problems, collaborating on meaningful projects, and contributing to the tech community.
 
-Alongside my web development studies, I'm also Microsoft Azure Administrator Certified. I have experience managing Azure resources and overseeing the deployment and maintenance of web applications on the Azure platform. Additionally, I'm responsible for ensuring the smooth operation and security of these resources.
-
-My goal is to leverage my diverse skillset and love for problem-solving to create innovative solutions that make a positive impact. In addition, I'm excited to connect with like-minded individuals, collaborate on meaningful projects, and contribute to the tech community.
-
-Feel free to contact me—I'd love to chat, share ideas, and explore opportunities for collaboration!
+Feel free to reach out—I’d love to connect, share ideas, and explore new opportunities!
 
 ## 🚀 Projects
 
-As a developer, I've had the opportunity to work on various projects that have helped me grow my skills and expertise in the field. Below are two of my recent projects showcasing my ability to deliver high-quality web development solutions.
+As a developer, I've had the opportunity to work on various projects that have helped me grow my skills and expertise in the field. Below are my recent projects showcasing my ability to deliver high-quality web development solutions.
+
+### Developed by Will - Personal Portfolio
+
+**Website:** [www.DevelopedByWill.com](https://developedbywill.com)
+
+**Description:** Developed by Will is my personal portfolio website that highlights my skills, projects, and expertise in web development. The site is designed to showcase my commitment to creating innovative web solutions with clean code and thoughtful design.
+
+**My Role:**
+
+- Designed the UI/UX for the website, emphasizing a modern and professional look.
+- Built with Next.js for server-side rendering and optimized performance.
+- Integrated Plausible Analytics for privacy-focused visitor tracking.
+- Deployed on Vercel with a custom domain and SSL certificate.
+
+**Knowledge & Experience Gained:**
+
+- Mastered Next.js for static site generation and dynamic rendering.
+- Implemented responsive design principles to ensure compatibility across devices.
+- Enhanced SEO with metadata and structured data integration.
+- Developed an efficient CI/CD pipeline using GitHub Actions.
+
+<p align="center">
+  <img src="images/screencapture-developedbywill-2024-11-26-21_48_15.jpg" alt="Developed by Will Website" title="Developed by Will Website">
+</p>
+
+---
 
 ### WJR Visuals - Travel Photography Portfolio
 
