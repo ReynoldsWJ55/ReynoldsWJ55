@@ -38,7 +38,7 @@ Feel free to reach out — I’d love to connect, collaborate, and explore new o
 - Deployed on Vercel with continuous integration via GitHub Actions.
 
 <p align="center">
-  <img src="images/screencapture-developedbywill-2024-11-26-21_48_15.jpg" alt="Developed by Will Website" title="Developed by Will Website">
+  <img src="images/converted-20250601122541.jpg" alt="Developed by Will Website" title="Developed by Will Website">
 </p>
 
 ---
@@ -56,7 +56,7 @@ Feel free to reach out — I’d love to connect, collaborate, and explore new o
 - Featured work in The Guardian, MSN Lifestyle, Institut Français des Relations Internationales, U.S. Army, Kayak, and Photo-Weekly Germany.
 
 <p align="center">
-  <img src="images/image1.jpeg" alt="WJR Visuals Website" title="WJR Visuals Website">
+  <img src="images/converted-20250601122504.jpg" alt="WJR Visuals Website" title="WJR Visuals Website">
 </p>
 
 ---
@@ -75,7 +75,7 @@ Feel free to reach out — I’d love to connect, collaborate, and explore new o
 - Supported lightweight marketing-driven design to boost conversions and leads.
 
 <p align="center">
-  <img src="images/image2.jpeg" alt="V Goal Visa Service Website" title="V Goal Visa Service Website">
+  <img src="images/converted-20250601122558.jpg" alt="V Goal Visa Service Website" title="V Goal Visa Service Website">
 </p>
 
 ---
