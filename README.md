@@ -80,6 +80,38 @@ Feel free to reach out — I’d love to connect, collaborate, and explore new o
 
 ---
 
+### Thailand Wanderer – Strategic Travel Content Platform
+
+**Description:**  
+A strategic content platform designed to capture the growing Thailand travel market through authentic storytelling and SEO-optimized destination guides.
+
+**Challenge:**  
+Highly competitive travel blog space with established players dominating search results for Thailand-related content.
+
+**Solution:**  
+Implemented a data-driven content strategy focusing on underserved long-tail keywords, local insights, and comprehensive destination coverage.
+
+**Focus Areas:**
+
+- Content Strategy & Brand Development
+- SEO & Market Research
+- Long-tail Keyword Targeting
+- Content Cluster Strategy
+- Authentic Local Storytelling
+
+**Key Results:**
+
+- 📈 **Content Growth:** +200%
+- 🗺️ **Destination Guides:** 50+ articles published
+- 🔍 **SEO Wins:** Identified underserved search opportunities
+- 📊 **Marketing Strategy:** Built comprehensive coverage clusters and optimized local SEO
+
+<p align="center">
+  <img src="images/converted-20250601123038.jpg" alt="Thailand Wanderer Project" title="Thailand Wanderer Project">
+</p>
+
+---
+
 ## 🌏 Global & Regional Strength
 
 My background includes leading strategic initiatives at U.S. embassies across Asia, Africa, and the Middle East, providing me with deep insight into cross-border operations, Southeast Asia market dynamics, and international stakeholder management.
