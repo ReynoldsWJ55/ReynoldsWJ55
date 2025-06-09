@@ -56,6 +56,7 @@ Strategic travel content platform targeting underserved SEO opportunities in Tha
 - **Technical**: Next.js 15, TypeScript migration (68% complete), MDX content management
 - **Features**: Performance optimization, comprehensive security implementation, dynamic content generation
 - **Status**: Fully secure production deployment
+- **Live**: [Thailand-Wanderer.com](https://thailand-wanderer.com)
 
 ### Analytics Infrastructure - Self-Hosted Plausible CE
 
