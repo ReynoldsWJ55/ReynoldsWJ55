@@ -1,126 +1,114 @@
-## Hi, I'm Will Reynolds!
+# Developed by Will
 
-I’m a Thailand-based business development, marketing, and operations leader with over 20 years of global experience — including more than five years living and working in Bangkok. A retired U.S. Air Force veteran, I specialize in driving operational excellence, cross-cultural stakeholder engagement, and digital growth strategies across Southeast Asia.
+**Business Growth & Technical Excellence in Thailand & ASEAN**
 
-I’m passionate about building innovative, high-performance web solutions with clean code, modern design, and strong market impact. Whether it’s front-end development, digital marketing, or international business strategy, I bring a structured, adaptive approach tailored to the fast-evolving landscape of Thailand and the ASEAN region.
+Business development leader and full-stack developer with global experience, specializing in Thailand & ASEAN market expansion through strategic technology implementation and data-driven growth strategies.
 
-I’m currently pursuing an MBA in Bangkok, expanding my expertise in marketing, digital transformation, and strategic leadership.
+## About
 
----
+Will Reynolds is a Bangkok-based business development and operations leader combining deep technical expertise with strategic business acumen. With 5+ years in Southeast Asia, Will delivers end-to-end solutions from market entry strategy to technical implementation, serving as the bridge between business objectives and technology excellence.
 
-## 💼 Key Skills & Focus Areas
+## Core Competencies
 
-- Business Development
-- Marketing Strategy & Customer Engagement
-- Digital Business Transformation
-- International Operations & Program Leadership
-- Web Development (HTML, CSS, JavaScript, Next.js)
-- SEO, Analytics, & Lead Generation
-- Photography & Videography (featured by The Guardian, MSN Lifestyle, U.S. Army, Photo-Weekly Germany)
+| Area                         | Expertise                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Business Development**     | Market entry strategy, partnership development, ASEAN expansion, cross-cultural stakeholder engagement |
+| **Technical Implementation** | Full-stack web development, performance optimization, multilingual platforms, secure systems           |
+| **Marketing Technology**     | SEO optimization, analytics implementation, conversion optimization, marketing automation              |
+| **Operations Excellence**    | Digital transformation, process automation, data-driven decision making, agile project management      |
 
-Feel free to reach out — I’d love to connect, collaborate, and explore new opportunities!
+## Featured Projects
 
----
+### WJR Visuals - Full-Stack Photography Platform
 
-## 🚀 Featured Projects
+Professional photography portfolio with comprehensive admin management system.
 
-### Developed by Will – Personal Portfolio
+- **Impact**: 95+ PageSpeed scores, 150+ curated images, featured in The Guardian & MSN
+- **Technical**: Next.js 15, TypeScript, modern database architecture
+- **Features**: Multi-format image optimization, secure contact management, real-time analytics dashboard
+- **Planned**: CDN implementation, e-commerce integration for print sales
+- **Live**: [wjrvisuals.com](https://wjrvisuals.com)
 
-**Website:** [www.DevelopedByWill.com](https://developedbywill.com)
+### V Goal Visa Service - Multilingual Business Platform
 
-**Description:** My personal portfolio showcasing development, design, and marketing expertise.
+Comprehensive visa consultation platform with advanced search and analytics for Thai & international clients.
 
-**Highlights:**
+- **Impact**: 300% increase in qualified leads, 4.9/5 Google rating integration
+- **Technical**: Next.js 15, TypeScript, next-intl (Thai/English), privacy-focused analytics
+- **Features**: Advanced search functionality, comprehensive analytics tracking, Core Web Vitals optimization
+- **Market Value**: $4,000-$10,000 USD (Premium tier development)
+- **Live**: [vgoalvisaservice.com](https://vgoalvisaservice.com)
 
-- Designed a modern, minimal UI/UX inspired by brands like Apple and Tesla.
-- Built with Next.js, optimized for performance and SEO.
-- Integrated Plausible Analytics for privacy-friendly tracking.
-- Deployed on Vercel with continuous integration via GitHub Actions.
+### Baan Pavee - Luxury Real Estate Platform
 
-<p align="center">
-  <img src="images/converted-20250601122541.jpg" alt="Developed by Will Website" title="Developed by Will Website">
-</p>
+Bilingual real estate showcase for premium Thailand properties with advanced search capabilities.
 
----
+- **Impact**: Successfully showcasing luxury properties across Thailand
+- **Technical**: Next.js 15, TypeScript, Tailwind CSS, optimized static deployment
+- **Features**: Dynamic property filtering, responsive galleries, Google Maps integration, SEO optimization
+- **Live**: [baanpavee.netlify.app](https://baanpavee.netlify.app)
 
-### WJR Visuals – Travel Photography Portfolio
+### Thailand Wanderer - Content Strategy Platform
 
-**Website:** [www.WJRVisuals.com](https://www.WJRVisuals.com)
+Strategic travel content platform targeting underserved SEO opportunities in Thailand tourism.
 
-**Description:** A curated showcase of my global photography, capturing the beauty and diversity of cultures and landscapes.
+- **Impact**: 200% content growth, expanding destination guide coverage, production-ready deployment
+- **Technical**: Next.js 15, TypeScript migration (68% complete), MDX content management
+- **Features**: Performance optimization, comprehensive security implementation, dynamic content generation
+- **Status**: Fully secure production deployment
 
-**Highlights:**
+### Analytics Infrastructure - Self-Hosted Plausible CE
 
-- Designed a visually immersive, mobile-first site.
-- Built responsive galleries with JavaScript lazy loading and lightbox features.
-- Featured work in The Guardian, MSN Lifestyle, Institut Français des Relations Internationales, U.S. Army, Kayak, and Photo-Weekly Germany.
+Privacy-focused analytics platform powering all client projects.
 
-<p align="center">
-  <img src="images/converted-20250601122504.jpg" alt="WJR Visuals Website" title="WJR Visuals Website">
-</p>
+- **Technical**: Plausible Community Edition self-hosted on VPS
+- **Features**: GDPR-compliant tracking, custom goals & events, real-time dashboards
+- **Impact**: Detailed analytics and conversion tracking across all deployed projects
+- **Benefits**: Complete data ownership, no cookie banners required, privacy-first approach
 
----
+## Technical Stack
 
-### V Goal Visa Service – Bilingual Business Website
+### Frontend
 
-**Website:** [www.VGoalVisaService.com](https://www.VGoalVisaService.com)
+- **Frameworks**: Next.js 15 (App Router), React 18
+- **Languages**: TypeScript, JavaScript ES6+
+- **Styling**: Tailwind CSS, Framer Motion, Radix UI
+- **State Management**: React Context, modern state solutions
 
-**Description:** A bilingual (Thai/English) visa service platform supporting clients in Bangkok with seamless navigation and clear service offerings.
+### Backend & Infrastructure
 
-**Highlights:**
+- **APIs**: RESTful APIs, secure authentication systems
+- **Databases**: Modern ORM solutions with SQL databases
+- **Security**: Enterprise-grade security implementations
+- **Integration**: SMTP services, form handling, third-party APIs
 
-- Developed a fully responsive, multi-language website.
-- Used Intersection Observer API for dynamic UI effects.
-- Optimized performance with lazy loading and SEO best practices.
-- Supported lightweight marketing-driven design to boost conversions and leads.
+### Performance & Analytics
 
-<p align="center">
-  <img src="images/converted-20250601122558.jpg" alt="V Goal Visa Service Website" title="V Goal Visa Service Website">
-</p>
+- **Analytics**: Self-hosted Plausible CE, custom event tracking
+- **Monitoring**: Core Web Vitals, performance tracking
+- **SEO**: Structured data, dynamic sitemaps, meta optimization
+- **Infrastructure**: VPS deployment, continuous monitoring
 
----
+### Development & Deployment
 
-### Thailand Wanderer – Strategic Travel Content Platform
+- **Version Control**: Git, GitHub Actions
+- **Deployment**: Vercel, Netlify, VPS
+- **Quality**: TypeScript strict mode, ESLint, best practices
+- **Build Tools**: Turbopack, modern bundlers
 
-**Description:**  
-A strategic content platform designed to capture the growing Thailand travel market through authentic storytelling and SEO-optimized destination guides.
+## Professional Background
 
-**Challenge:**  
-Highly competitive travel blog space with established players dominating search results for Thailand-related content.
+- **Leadership**: 20+ years leading strategic operations across Asia, Africa, Middle East
+- **Photography**: Published in The Guardian, U.S. Army, Photo-Weekly Germany
+- **Education**: Currently pursuing MBA in Bangkok (Marketing & Digital Transformation focus)
+- **Languages**: English (Native), Thai (Business Level)
 
-**Solution:**  
-Implemented a data-driven content strategy focusing on underserved long-tail keywords, local insights, and comprehensive destination coverage.
+## Location
 
-**Focus Areas:**
+Bangkok, Thailand - Serving Thailand & ASEAN Markets
 
-- Content Strategy & Brand Development
-- SEO & Market Research
-- Long-tail Keyword Targeting
-- Content Cluster Strategy
-- Authentic Local Storytelling
+## Connect
 
-**Key Results:**
-
-- 📈 **Content Growth:** +200%
-- 🗺️ **Destination Guides:** 50+ articles published
-- 🔍 **SEO Wins:** Identified underserved search opportunities
-- 📊 **Marketing Strategy:** Built comprehensive coverage clusters and optimized local SEO
-
-<p align="center">
-  <img src="images/converted-20250601123038.jpg" alt="Thailand Wanderer Project" title="Thailand Wanderer Project">
-</p>
-
----
-
-## 🌏 Global & Regional Strength
-
-My background includes leading strategic initiatives at U.S. embassies across Asia, Africa, and the Middle East, providing me with deep insight into cross-border operations, Southeast Asia market dynamics, and international stakeholder management.
-
-Currently open to collaborations and opportunities in:
-
-- Business Development
-- Operations Management
-- Marketing Strategy
-- Digital Innovation
-
-Let’s connect!
+- **Website**: [developedbywill.com](https://developedbywill.com)
+- **LinkedIn**: [linkedin.com/in/reynoldswj/](https://www.linkedin.com/in/reynoldswj/)
+- **Photography**: [wjrvisuals.com](https://wjrvisuals.com)
