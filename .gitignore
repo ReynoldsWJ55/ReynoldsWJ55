@@ -1,0 +1,6 @@
+# Source briefs and synthesis (contain identifying information — never push)
+project-briefs/
+synthesis-master.md
+
+# macOS
+.DS_Store

@@ -1,115 +1,99 @@
-# Developed by Will
+# Will Reynolds
 
-**Business Growth & Technical Excellence in Thailand & ASEAN**
+Solo-operator engineer and researcher. I build production-grade systems end-to-end: infrastructure, data pipelines, application code, security, observability, and the documentation that makes them operable without me. Currently completing an MBA at an international university in Bangkok while running the Thailand Liveability Index, a 77-province composite index built to academic-publication standards.
 
-Business development leader and full-stack developer with global experience, specializing in Thailand & ASEAN market expansion through strategic technology implementation and data-driven growth strategies.
+The through-line across everything I ship: single-operator viability, real production discipline, documentation as a first-class deliverable, and honest labeling. The work is engineering-grade and meant to survive third-party audits.
 
-## About
+## Track record
 
-Will Reynolds is a Bangkok-based business development and operations leader combining deep technical expertise with strategic business acumen. With 5+ years in Southeast Asia, Will delivers end-to-end solutions from market entry strategy to technical implementation, serving as the bridge between business objectives and technology excellence.
+From production SEO and analytics systems I've architected:
 
-## Core Competencies
+A multilingual outbound-visa consultancy website taken from effectively zero traffic and zero SERP presence to Domain Rating 10, with site-wide conversion sitting at approximately 15%. Branded queries hold position 1 plus sitelinks plus AI summary across both Google and Bing. ChatGPT-sourced referral traffic sits at approximately 9% of overall and converts at approximately 58%, the highest of any channel on the site, validating an architecture that explicitly protects AI traffic via robots.txt rules and citation-friendly content structure.
 
-| Area                         | Expertise                                                                                              |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Business Development**     | Market entry strategy, partnership development, ASEAN expansion, cross-cultural stakeholder engagement |
-| **Technical Implementation** | Full-stack web development, performance optimization, multilingual platforms, secure systems           |
-| **Marketing Technology**     | SEO optimization, analytics implementation, conversion optimization, marketing automation              |
-| **Operations Excellence**    | Digital transformation, process automation, data-driven decision making, agile project management      |
+Specific shipped fixes from the same body of work: caught and corrected a duplicate-firing analytics event that had inflated conversion totals 2x and surfaced the true baseline; resolved a deployment-alias-driven canonical conflict at the code level, with Search Console validation passing on six pages within the window.
 
-## Featured Projects
+Conversion attribution by locale, captured through careful instrumentation: primary-locale users convert primarily through a messaging app (~71% of contacts), secondary-locale users through a mix of messaging and inline form submission. The data drove locale-specific CTA placement and made surgical fixes possible, not site-wide blunt instruments.
 
-### WJR Visuals - Full-Stack Photography Platform
+## What I'm working on
 
-Professional photography portfolio with comprehensive admin management system.
+The **Thailand Liveability Index (TLI)** is what I'm currently building. A composite liveability index covering all 77 Thai provinces, modeled on Walk Score's distribution architecture and written with APA 7 citations from day one. Built solo across data engineering, methodology, geographic coverage, and editorial layer.
 
-- **Impact**: 95+ PageSpeed scores, 150+ curated images, featured in The Guardian & MSN
-- **Technical**: Next.js 15, TypeScript, modern database architecture
-- **Features**: Multi-format image optimization, secure contact management, real-time analytics dashboard
-- **Planned**: CDN implementation, e-commerce integration for print sales
-- **Live**: [wjrvisuals.com](https://wjrvisuals.com)
+Phase 1 closed end of April 2026. Phase 2 reached end-to-end production validation in week 1, day 2 of a 9-week plan. MVP launch targets late August / early September 2026. First annual report ships December 2026 as a 15–20 page gated PDF. Academic submission target is 2028–2029, to *Cities*, *Habitat International*, or *Environment and Planning B*.
 
-### V Goal Visa Service - Multilingual Business Platform
+## Featured projects
 
-Comprehensive visa consultation platform with advanced search and analytics for Thai & international clients.
+### Thailand Liveability Index: [thailandliveabilityindex.com](https://thailandliveabilityindex.com)
 
-- **Impact**: 300% increase in qualified leads, 4.9/5 Google rating integration
-- **Technical**: Next.js 15, TypeScript, next-intl (Thai/English), privacy-focused analytics
-- **Features**: Advanced search functionality, comprehensive analytics tracking, Core Web Vitals optimization
-- **Market Value**: $4,000-$10,000 USD (Premium tier development)
-- **Live**: [vgoalvisaservice.com](https://vgoalvisaservice.com)
+A 77-province composite across seven categories (environment, healthcare, connectivity, cost, safety, lifestyle, demographics), normalized from public data, with destination-level overlays for heterogeneous provinces (Bangkok's 50 khets, Phuket zones, Krabi → Ao Nang / Railay / Koh Lanta).
 
-### Baan Pavee - Luxury Real Estate Platform
+Architecture is the Walk Score template: a standalone canonical home with widget distribution to consumer sites. Data pipeline is Cloudflare-native: six R2 buckets, per-pull provenance stamping, and a manifest at `tli-snapshots/<iv>/manifest.json` that lets any historical score be regenerated byte-identical from raw inputs. Build-time DuckDB on operator Mac and GitHub Actions; the Worker stays static. Workers Cron triggers GitHub Actions which deploys to Pages.
 
-Bilingual real estate showcase for premium Thailand properties with advanced search capabilities.
+Composite scoring is built so that catastrophic failure in any single category substantially drags down the whole score, rather than being averaged away by strengths elsewhere. A place isn't reasonably "liveable" if it scores poorly on safety, environment, or healthcare, even if everything else is strong. The math reflects the philosophy.
 
-- **Impact**: Successfully showcasing luxury properties across Thailand
-- **Technical**: Next.js 15, TypeScript, Tailwind CSS, optimized static deployment
-- **Features**: Dynamic property filtering, responsive galleries, Google Maps integration, SEO optimization
-- **Live**: [baanpavee.netlify.app](https://baanpavee.netlify.app)
+Documentation discipline: every locked decision lives in a per-decision memo (`dm-YYYYMMDD-{slug}.md`) tracked in `DECISION-LOG.md` with explicit states (Locked / Unlocked / Provisional / Superseded). Three custom Claude skills automate the indicator-entry, source-onboarding, and decision-memo workflows. Six purpose-built NotebookLM research notebooks sit behind the methodology.
 
-### Thailand Wanderer - Content Strategy Platform
+Stack: Astro 5 + React islands, custom design system, D3 + SVG, Cloudflare (Pages, D1, Workers, R2, Cron), Python 3.13, DuckDB, Node 22.
 
-Strategic travel content platform targeting underserved SEO opportunities in Thailand tourism.
+Licensing posture: methodology and dictionaries CC BY-NC 4.0 with commercial licensing available; pipeline code MIT public by month 4; raw data and weights private.
 
-- **Impact**: 200% content growth, expanding destination guide coverage, production-ready deployment
-- **Technical**: Next.js 15, TypeScript migration (68% complete), MDX content management
-- **Features**: Performance optimization, comprehensive security implementation, dynamic content generation
-- **Status**: Fully secure production deployment
-- **Live**: [Thailand-Wanderer.com](https://thailand-wanderer.com)
+### WJR Visuals: [wjrvisuals.com](https://wjrvisuals.com)
 
-### Analytics Infrastructure - Self-Hosted Plausible CE
+A production photography portfolio and content platform. Originally on Squarespace, then a self-built HTML/CSS/JS site, then rebuilt on the current Next.js stack in 2024. Designed and built end-to-end as a single-person engineering effort with the explicit goal of matching the technical quality of full-time professional photographer websites. Photography published in The Guardian, U.S. Army, and Photo-Weekly Germany.
 
-Privacy-focused analytics platform powering all client projects.
+Static-export Next.js 15.1 on Vercel: no server runtime, no cold-start latency, near-zero operating cost. Source images in Cloudflare R2 with edge delivery; Next.js Image renders AVIF/WebP with build-time blur placeholders, Intersection Observer lazy loading, and responsive srcset. Mobile LCP under 2.5 seconds on a 150+ image catalog.
 
-- **Technical**: Plausible Community Edition self-hosted on VPS
-- **Features**: GDPR-compliant tracking, custom goals & events, real-time dashboards
-- **Impact**: Detailed analytics and conversion tracking across all deployed projects
-- **Benefits**: Complete data ownership, no cookie banners required, privacy-first approach
+Eleven distinct Schema.org types live across the site (Organization, ProfessionalService, Person, CollectionPage, CreativeWork, BreadcrumbList, ImageGallery, Event, FAQPage, Article, ItemList). Custom lightbox with touch/swipe, full keyboard control, focus trap, and per-photo `CreativeWork` JSON-LD injection. A single `photos.json` source of truth drives routing, gallery views, schema markup, sitemap, and search. Adding a new photo is a one-file change; nothing has to be wired up in five places.
 
-## Technical Stack
+Verified production measurements: PageSpeed 95 mobile / 98 desktop, all Core Web Vitals green, Ahrefs Site Audit health 93/100, accessibility 100/100 with WCAG 2.1 AA verified through screen-reader testing of the lightbox, breadcrumb, and contact flows.
 
-### Frontend
+Stack: Next.js 15.1, React 18.2, TypeScript 5.7 strict, Tailwind 3.4, Radix UI, Framer Motion, Prisma 6 (SQLite, PostgreSQL-ready), Cloudflare R2, Upstash Redis, Formspree + reCAPTCHA v3, DOMPurify, NextAuth-compatible schema, self-hosted Plausible, Microsoft Clarity, next-sitemap.
 
-- **Frameworks**: Next.js 15 (App Router), React 18
-- **Languages**: TypeScript, JavaScript ES6+
-- **Styling**: Tailwind CSS, Framer Motion, Radix UI
-- **State Management**: React Context, modern state solutions
+Honest current state: the site is a portfolio and lead-generation surface today; direct print sales are gated on a calendared dependency (full-resolution masters become accessible July 2026). The e-commerce surface is implemented and waiting behind a launch landing page with `Product` and `Event` schema in place. Q3 2026: Stripe Checkout, Fine Art America catalog populates, stock distribution expands to Shutterstock, iStock, and Alamy.
 
-### Backend & Infrastructure
+## How I work
 
-- **APIs**: RESTful APIs, secure authentication systems
-- **Databases**: Modern ORM solutions with SQL databases
-- **Security**: Enterprise-grade security implementations
-- **Integration**: SMTP services, form handling, third-party APIs
+A short list of operating principles, written down because they are the strongest signals about how I run projects.
 
-### Performance & Analytics
+**Document every locked decision.** Per-decision memos with explicit state (Locked, Unlocked, Provisional, Superseded) tracked in a single source-of-truth `DECISION-LOG.md`. Reproducibility manifests for every data release. The cost of writing it down is small. The cost of relearning your own choices six months later, defending a methodology in front of an examiner, or onboarding a partner is large.
 
-- **Analytics**: Self-hosted Plausible CE, custom event tracking
-- **Monitoring**: Core Web Vitals, performance tracking
-- **SEO**: Structured data, dynamic sitemaps, meta optimization
-- **Infrastructure**: VPS deployment, continuous monitoring
+**Scope down twice if needed.** TLI was scoped down from a maximalist 928-amphoe national rollout to a defensible 77-province + curated zones model. WJR Visuals is intentionally static-export with no API runtime. I treat my own pushback instinct as signal, not friction.
 
-### Development & Deployment
+**Verify before flagging.** Always check source code before reporting technical SEO issues. External crawls produce false negatives on Next.js sites with server-side metadata. Discrimination check on actual current data before locking any goalpost band.
 
-- **Version Control**: Git, GitHub Actions
-- **Deployment**: Vercel, Netlify, VPS
-- **Quality**: TypeScript strict mode, ESLint, best practices
-- **Build Tools**: Turbopack, modern bundlers
+**Honest UI labeling.** Coverage tiers, algorithmic vs. editorial, full vs. partial, source-geography flags. The product is more credible because it doesn't pretend to know things it doesn't.
 
-## Professional Background
+**Layered defenses on every attack surface.** Contact-form pipelines: reCAPTCHA + rate limit + sanitization + database write + provider forward. Infrastructure: cloud firewall + UFW + fail2ban + SSH hardening + app-level config rotation. Failure of any single layer is independently survivable.
 
-- **Leadership**: 20+ years leading strategic operations across Asia, Africa, Middle East
-- **Photography**: Published in The Guardian, U.S. Army, Photo-Weekly Germany
-- **Education**: Currently pursuing MBA in Bangkok (Marketing & Digital Transformation focus)
-- **Languages**: English (Native), Thai (Business Level)
+**Operations as code.** Folder structure, naming conventions, custom skills, living state documents. The supporting workspace is itself a system with rules and an update protocol, not a folder of ad-hoc files. Numbered phases. Deployment-coupled folder names deliberately preserved with a `CLAUDE.md` explaining *why* renaming would break the deployment.
 
-## Location
+**Open-source defaults where they don't cannibalize the moat.** For TLI: methodology and dictionaries CC BY-NC 4.0 (commercial licensing available), pipeline code MIT, raw data and exact algorithmic weights private.
 
-Bangkok, Thailand - Serving Thailand & ASEAN Markets
+## Stack
 
-## Connect
+Application: Next.js 15 (App Router and static export), Astro 5 with React islands, React 18, TypeScript strict mode, Tailwind, shadcn/ui, Radix UI primitives, Framer Motion, next-intl, Fuse.js, MDX.
 
-- **Website**: [developedbywill.com](https://developedbywill.com)
-- **LinkedIn**: [linkedin.com/in/reynoldswj/](https://www.linkedin.com/in/reynoldswj/)
-- **Photography**: [wjrvisuals.com](https://wjrvisuals.com)
+Backend and data: Python 3.13 (stdlib-first), Node 22, Prisma 6, SQLite (PostgreSQL-ready), DuckDB at build time, Zod, DOMPurify.
+
+Infrastructure: Vercel, Hetzner VPS (Ubuntu 24.04, Docker Compose), Cloudflare across the board (DNS, Pages, Workers, D1, R2, Cron Triggers), Nginx with rate limiting and security headers, Let's Encrypt + Certbot.
+
+Analytics and monitoring: Plausible CE (self-hosted), Microsoft Clarity, Vercel Analytics, Vercel Speed Insights, Web Vitals, Sentry with custom triage rules.
+
+Forms and abuse mitigation: Formspree, reCAPTCHA v3, Upstash Redis distributed rate limiting, bcrypt.
+
+SEO operations: IndexNow (Bing + Yandex), Bing Webmaster API, GSC BigQuery export, Schema.org JSON-LD across 11+ types, Ahrefs Site Audit for external verification.
+
+Tooling: GitHub Actions, Wrangler, gcloud, gh CLI, Playwright (with persistent profile for difficult sources), PowerBI XHR capture, NotebookLM, Apify.
+
+## What I take on
+
+A small but growing practice for performance-grade marketing sites: home, services, about, contact, roughly four to five pages, no e-commerce or booking. What sets the work apart is what's built in: a real schema graph and SEO infrastructure, self-hosted analytics with typed event helpers and conversion attribution, Core Web Vitals targets in the 90+ range on real measurement, and the security and documentation discipline shown above. The same stack and the same discipline as the projects on this page.
+
+Best fit: small businesses in the US (San Antonio especially, where I'm from) who want a website that ranks, converts, and doesn't fall over. Also open to clients elsewhere in North America, the UK, EU, Australia, and Southeast Asia outside Thailand. Engagements typically ship in four to six weeks.
+
+Inquiries: [developedbywill.com](https://developedbywill.com).
+
+## Contact
+
+GitHub: [github.com/ReynoldsWJ55](https://github.com/ReynoldsWJ55)
+
+Client inquiries via [developedbywill.com](https://developedbywill.com). Currently focused on TLI.
