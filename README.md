@@ -1,6 +1,6 @@
 # Will Reynolds
 
-Solo-operator engineer and researcher. I build production-grade systems end-to-end: infrastructure, data pipelines, application code, security, observability, and the documentation that makes them operable without me. Currently completing an MBA at an international university in Bangkok while running the Thailand Liveability Index, a 77-province composite index built to academic-publication standards.
+Solo-operator engineer and researcher. I build production-grade systems end-to-end: infrastructure, data pipelines, application code, security, observability, and the documentation that makes them operable without me. Currently completing an MBA at an international university in Bangkok while running the Thailand Livability Index, a 77-province composite index built to academic-publication standards.
 
 The through-line across everything I ship: single-operator viability, real production discipline, documentation as a first-class deliverable, and honest labeling. The work is engineering-grade and meant to survive third-party audits.
 
@@ -16,13 +16,13 @@ Conversion attribution by locale, captured through careful instrumentation: prim
 
 ## What I'm working on
 
-The **Thailand Liveability Index (TLI)** is what I'm currently building. A composite liveability index covering all 77 Thai provinces, modeled on Walk Score's distribution architecture and written with APA 7 citations from day one. Built solo across data engineering, methodology, geographic coverage, and editorial layer.
+The **Thailand livability Index (TLI)** is what I'm currently building. A composite livability index covering all 77 Thai provinces, modeled on Walk Score's distribution architecture and written with APA 7 citations from day one. Built solo across data engineering, methodology, geographic coverage, and editorial layer.
 
 Phase 1 closed end of April 2026. Phase 2 reached end-to-end production validation in week 1, day 2 of a 9-week plan. MVP launch targets late August / early September 2026. First annual report ships December 2026 as a 15–20 page gated PDF. Academic submission target is 2028–2029, to *Cities*, *Habitat International*, or *Environment and Planning B*.
 
 ## Featured projects
 
-### Thailand Liveability Index: [thailandliveabilityindex.com](https://thailandliveabilityindex.com)
+### Thailand livability Index: [thailand-livability-index.com](https://thailand-livability-index.com)
 
 A 77-province composite across seven categories (environment, healthcare, connectivity, cost, safety, lifestyle, demographics), normalized from public data, with destination-level overlays for heterogeneous provinces (Bangkok's 50 khets, Phuket zones, Krabi → Ao Nang / Railay / Koh Lanta).
 
