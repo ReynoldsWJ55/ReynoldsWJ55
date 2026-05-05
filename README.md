@@ -12,7 +12,7 @@ Two findings from the same project: a duplicate-firing analytics event that had 
 
 ## What I'm building now
 
-**[Thailand Liveability Index](https://thailandliveabilityindex.com)** is a composite liveability index across 77 Thai provinces — seven categories, public-data sources, APA 7 citations from day one. Built solo across data engineering, methodology, geographic coverage, and editorial, alongside completing an MBA. Phase 1 closed April 2026. Phase 2 reached end-to-end production validation in week 1. MVP launch targets late August 2026; first annual report ships December 2026 as a 15–20 page gated PDF. Academic submission targets 2028–2029, to *Cities*, *Habitat International*, or *Environment and Planning B*.
+**[Thailand Liveability Index](https://thailandliveabilityindex.com)** is a composite liveability index across 77 Thai provinces — seven categories, public-data sources, APA 7 citations from day one. Built solo across data engineering, methodology, geographic coverage, and editorial. Phase 1 closed April 2026. Phase 2 reached end-to-end production validation in week 1. MVP launch targets late August 2026; first annual report ships December 2026 as a 15–20 page gated PDF. Outputs will be registered with DOI and deposited to Zenodo and SSRN; journal submission targets 2028–2029, to *Cities*, *Habitat International*, or *Environment and Planning B*.
 
 ## How I work
 
