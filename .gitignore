@@ -4,3 +4,6 @@ synthesis-master.md
 
 # macOS
 .DS_Store
+
+# Local brand-voice guidelines (internal, do not push)
+.claude/
