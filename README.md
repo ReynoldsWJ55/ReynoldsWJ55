@@ -18,14 +18,6 @@ Developer with a 20-year USAF background and an MBA in progress. Building produc
 
 - **[thailand-canonical-admin-names](https://github.com/DevelopedbyWill/thailand-canonical-admin-names)** — canonical English and Thai names for Thailand's administrative units at all three levels, with TIS-1099 and ISO 3166-2 codes, an override registry, computed centroids, and bundled polygons. CC BY 4.0, Zenodo DOI.
 
-## Infrastructure I run
-
-A VPS runs analytics, error monitoring, contracts, CRM, uptime monitoring, log viewer, and a form-capture API for my own portfolio of sites.
-
-Each service runs in its own container with a dedicated Postgres user against a shared Postgres instance, least-privilege throughout. Plausible and Umami handle analytics; GlitchTip handles error monitoring (deliberately swapped in for Sentry SaaS to consolidate the observability stack onto owned infrastructure); Twenty handles CRM; DocuSeal handles contracts and signatures; Gatus drives public status pages; Caddy handles TLS and routing.
-
-The `leads` service is the custom piece: five of my own sites POST into a single FastAPI + asyncpg endpoint. Per-project CORS allow-lists from a single source of truth. Turnstile server-side verification. IP-hash rate limiting. Postgres advisory locks for migration serialization. Best-effort Twenty CRM + email fan-out — each of the four steps (validation, Turnstile, Postgres write, CRM + email) can fail independently without losing the submission. One service, five sites; one fix, every site benefits.
-
 ## Stack
 
 TypeScript + Astro / Next.js on the frontend; Python (FastAPI, asyncpg, DuckDB) on the backend; Postgres + object storage for state; Cloudflare Workers + Hetzner for compute; Caddy and Docker Compose for the platform underneath. pnpm workspaces and Biome for monorepo discipline.
